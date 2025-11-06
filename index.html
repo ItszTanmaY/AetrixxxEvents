@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetrixx Events - The Curated Experience</title>
+    
+    <!-- Font Awesome for hamburger icon -->
+
+    <link rel="stylesheet" href="style1.css">
+    
+    <!-- Google Fonts: Butler & Inter -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=butler@700&display=swap">
+
+</head>
+<body>
+        <div id="cursor"></div>
+        <div id="cursor-blur"></div>
+        
+    <div class="header" id="header">
+        <div class="logo">
+            <h2>Aetrixx</h2>
+        </div>
+        <div class="menu" id="menu-item">
+            <span>About</span>
+            <span>Work</span>
+            <span>Gallery</span>
+            <span>Contact</span>
+        </div>
+        <div class="start-button">
+            <button>Start</button>
+        </div>
+    </div>
+    
+    <div class="hamburger-menu" id="hamburger">
+        <i class="fas fa-bars" id="hamburger-open"></i>
+        <i class="fas fa-times" id="hamburger-close"></i>
+    </div>
+    
+    <div id="hero-wrapper">
+        <!-- NEW GSAP Mobile Navigation -->
+        <div class="mobile-nav-gsap" id="mobile-nav">
+            <div class="nav-panel nav-panel-left"></div>
+            <div class="nav-panel nav-panel-right"></div>
+            <div class="nav-links">
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        
+        <div id="hero-track">
+            <section class="panel panel-1">
+                <!-- <div class="parallax-bg-container">
+        <img src="images/element1.png" alt="Parallax element" class="parallax-element" id="el-1">
+        <img src="images/element2.png" alt="Parallax element" class="parallax-element" id="el-2">
+        <img src="images/element3.png" alt="Parallax element" class="parallax-element" id="el-3">
+        <img src="images/element1.png" alt="Parallax element" class="parallax-element" id="el-4">
+        <img src="images/element2.png" alt="Parallax element" class="parallax-element" id="el-5">
+    </div> -->
+
+                <div class="Front-Text">
+
+                    <h2 id="h2">Our Story-</h2>
+                    <h1 id="hehe">Aetrixx Events</h1>
+                    <p id="para">Every detail is an opportunity. From the subtle scent in the air to the texture of the linen, we design for all five senses.</p>
+                </div>
+
+               
+            </section>
+            
+            <section class="panel panel-2">
+                <div class="panel-number-2">02</div>
+                <div class="panel-content-2">
+                    <div class="panel-subtitle-2">Our Philosophy</div>
+                    <h1 class="panel-title-2 font-serif">Sensory Artistry</h1>
+                    <p class="panel-text-2">Every detail is an opportunity. From the subtle scent in the air to the texture of the linen, we design for all five senses.</p>
+                </div>
+                <div class="panel-image-2">
+                    <img src="images/panel1.jpg" alt="Guests mingling at a sophisticated event">
+                </div>
+            </section>
+
+            <section class="panel panel-3">
+                <div class="panel-content-3">
+                    <div class="panel3-text">
+                        <h1>Crafting Moments,</h1>
+                        <h2>Creating Memories</h2>
+                    </div>
+
+                    <div class="panel3-bottom">
+
+                        <div class="botton-right">
+                             <video autoplay muted loop playsinline>
+  
+    <source src="images/bgvid2.mp4" media="(max-width: 768px)">
+
+    <source src="images/bgvid1.mp4 " media="(min-width: 769px)">
+ 
+  </video>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+    
+    <div id="spacer">
+
+           <section class="scrolling-section">
+        
+        <div class="background-text-container">
+            <div class="background-text">
+                <span>GET NUTS</span><span>GET NUTS</span><span>GET NUTS</span><span>GET NUTS</span>
+                <span>GET NUTS</span><span>GET NUTS</span><span>GET NUTS</span><span>GET NUTS</span>
+            </div>
+        </div>
+        
+        <div class="image-column">
+            <img src="images/model1.png" alt="Woman with glasses in black and white">
+        </div>
+
+        <div class="text-column">
+            <div class="text-content">
+                <div class="pre-title">
+                    <span></span>
+                    Say hello
+                </div>
+                <p class="main-text">
+                    Loved our work? Share your thoughts!
+                    Explore our latest projects, and let's
+                    solve your challenges.
+                </p>
+                <a href="mailto:contact@studionuts.com.br" class="email-link">
+                    contact@studionuts.com.br
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+        <div class="projects-container">
+
+        <!-- Project 1 -->
+        <section class="project-section">
+            <span class="background-number">01</span>
+            <div class="project-layout">
+                <div class="project-details">
+                    <span class="project-number">01</span>
+                    <h2 class="project-title">Aura Scents</h2>
+                    <p class="project-description">A complete brand identity and e-commerce experience for a luxury candle company, focusing on minimalist design and warm, inviting visuals.</p>
+                </div>
+                <div class="project-image-container">
+                    <div class="image-reveal-mask"></div>
+                    <img src="images/panel1.jpg" alt="Luxury candles in a warm setting" class="project-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project-section">
+            <span class="background-number">02</span>
+            <div class="project-layout">
+                <div class="project-details">
+                    <span class="project-number">02</span>
+                    <h2 class="project-title">Terra Living</h2>
+                    <p class="project-description">Web design and content strategy for a sustainable architecture firm, emphasizing natural materials and organic user journeys.</p>
+                </div>
+                <div class="project-image-container">
+                    <div class="image-reveal-mask"></div>
+                    <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&auto=format&fit=crop" alt="Modern home with natural wood elements" class="project-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Project 3 -->
+        <section class="project-section">
+            <span class="background-number">03</span>
+            <div class="project-layout">
+                <div class="project-details">
+                    <span class="project-number">03</span>
+                    <h2 class="project-title">Kinfolk Table</h2>
+                    <p class="project-description">A mobile app for a culinary magazine that allows users to discover and share recipes, with a focus on community and beautiful food photography.</p>
+                </div>
+                <div class="project-image-container">
+                    <div class="image-reveal-mask"></div>
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop" alt="A beautifully prepared meal on a rustic table" class="project-image">
+                </div>
+            </div>
+        </section>
+
+       
+
+        
+         
+     <!-- <section class="info-section">
+            <div class="info-wrapper">
+                <div class="info-first">
+
+                    <h3>CULTURA</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nobis et possimus, ullam magnam iste dicta vitae earum enim fugiat?</p>
+
+                </div>
+                <div class="info-right">
+                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores animi voluptatem aspernatur ad? <span><img src="images/IMGelement.png" alt=""></span></h2>
+                </div>
+            </div>
+
+            <div class="info-wrapper-2">
+                <div class="info-images">
+                     <img src="images/IMGelement2.png" alt="">
+                    <img src="images/IMGelement2.png" alt="">
+                    <img src="images/IMGelement2.png" alt=""> 
+                    
+                </div>
+            </div>
+
+        </section> -->
+
+<section class="featured-work-section">
+        <div class="featured-work-container">
+            
+            <!-- Left Text Column -->
+            <div class="featured-work-text">
+                <h2>Our Work</h2>
+                <p>We don't just make things pretty. We create visual systems that solve problems and drive results. See what we've been up to.</p>
+                <a href="#" class="view-all-link">View All Projects</a>
+            </div>
+            
+            <!-- Right Image Column -->
+            <div class="featured-work-images">
+                
+                <!-- Project 1 -->
+                <a href="#" class="project-card project-card-1">
+                    <img src="https://placehold.co/600x400/333/fff?text=Project+One" alt="Featured Project 1">
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <span>Brand Identity</span>
+                    </div>
+                </a>
+                
+                <!-- Project 2 (Overlaps) -->
+                <a href="#" class="project-card project-card-2">
+                    <img src="https://placehold.co/600x400/555/fff?text=Project+Two" alt="Featured Project 2">
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <span>Web Design</span>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+        <section class="interactive-team-section">
+        
+        <h2 class="team-section-title">Meet the Nuts</h2>
+        
+        <div class="team-container">
+            
+            <!-- Panel 1 -->
+            <div class="team-panel" style="background-image: url('https://placehold.co/800x800/A0A0A0/FFF?text=Person+1');">
+                <div class="team-panel-content">
+                    <h3>Jane Doe</h3>
+                    <div class="bio">
+                        <span>Creative Director</span>
+                        <p>Leads the visual direction and ensures every pixel is perfect. Fueled by coffee and good design.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Panel 2 -->
+            <div class="team-panel" style="background-image: url('https://placehold.co/800x800/808080/FFF?text=Person+2');">
+                <div class="team-panel-content">
+                    <h3>John Smith</h3>
+                    <div class="bio">
+                        <span>Lead Developer</span>
+                        <p>Turns complex ideas into smooth, interactive experiences. Loves clean code and a good challenge.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Panel 3 -->
+            <div class="team-panel" style="background-image: url('https://placehold.co/800x800/606060/FFF?text=Person+3');">
+                <div class="team-panel-content">
+                    <h3>Alex Johnson</h3>
+                    <div class="bio">
+                        <span>Animator & Motion</span>
+                        <p>Brings static designs to life with fluid motion. Believes every scroll should be an event.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Panel 4 -->
+            <div class="team-panel" style="background-image: url('https://placehold.co/800x800/404040/FFF?text=Person+4');">
+                <div class="team-panel-content">
+                    <h3>Sarah Chen</h3>
+                    <div class="bio">
+                        <span>Brand Strategist</span>
+                        <p>The "why" behind the "what." Connects brand values with audience needs for real impact.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        
+        <footer>
+            <svg class="footer-blob" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#fff" d="M429.5,298Q384,346,341.5,392Q299,438,245.5,396.5Q192,355,171.5,277.5Q151,200,226,179Q301,158,365.5,176Q430,194,459,247Q488,300,429.5,298Z"></path>
+            </svg>
+            <div class="blob blob1"></div>
+            <div class="blob blob2"></div>
+            
+            <div class="footer-content">
+                <h1 class="footer-title">Let’sDoSomethingExtraordinary</h1>
+      
+                <div class="footer-grid">
+                    <div class="footer-col">
+          <h3>About</h3>
+          <p>We create immersive web experiences with design, motion, and interaction. Our mission is to make the web feel alive.</p>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Services</h3>
+          <a href="#">Web Design</a>
+          <a href="#">Animations</a>
+          <a href="#">Branding</a>
+          <a href="#">Creative Strategy</a>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Social</h3>
+          <div class="socials">
+            <a href="#">🌐</a>
+            <a href="#">📸</a>
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+          <p>Stay updated with our latest projects & insights.</p>
+          <div class="newsletter">
+              <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+          </div>
+        </div>
+    </div>
+
+      <p class="copyright">© 2025 Your Brand. Crafted with passion ✦</p>
+    </div>
+  </footer>
+</div>
+
+
+ <div id="scrollbar"><div id="scrollbar-thumb"></div></div>
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.6/bundled/lenis.min.js"></script>
+
+    <script src="gsap.js"></script>
+
+</body>
+</html>
